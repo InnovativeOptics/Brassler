@@ -1,0 +1,13 @@
+name: Brassler
+title: Brassler
+username: inva
+account: inva
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12475184
+bundleId: 9000310
+url: https://inva.shinyapps.io/Brassler/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: PossibleCorruptedFiles.zip
