@@ -22,3 +22,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/InnovativeOptics/Brassler
+BugReports: https://github.com/InnovativeOptics/Brassler/issues
