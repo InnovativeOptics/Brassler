@@ -7,11 +7,13 @@
 #' @import dplyr
 #' @noRd
 
-oem_data <- readxl::read_excel("data/Dental_data.xlsx",
-                               sheet = 1) %>%
+
+oem_data <- googlesheets4::read_sheet(sheet_id, sheet = "laser_info") %>%
   filter(`Laser Mfg` == "Brassler")
 
-loupe_data <- readxl::read_excel("data/Dental_data.xlsx", sheet = "Loupe_types")
+
+loupe_data <- googlesheets4::read_sheet(sheet_id, sheet = "Loupe_types", col_types = "c")
+
 
 app_ui <- function(request) {
   tagList(
