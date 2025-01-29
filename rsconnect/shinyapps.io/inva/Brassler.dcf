@@ -5,7 +5,7 @@ account: inva
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 12475184
-bundleId: 9153610
+bundleId: 9715085
 url: https://inva.shinyapps.io/Brassler/
 version: 1
 asMultiple: FALSE
